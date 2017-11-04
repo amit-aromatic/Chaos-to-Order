@@ -11,6 +11,12 @@ As on 2017, the 32 bit operating systems are obsolete and don't run the 32 bit E
 (2) Compile the included source codes in a modern compiler like Dev-C++ and change the source codes suitably for any compiler compatibility issues.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+NOTE:In Line 45 of the code, initgraph function is called in which path is given to the BGI directory of the Turbo C++ compiler as "c:\\tc\\bgi"
+
+If in your PC, the BGI folder is at some other path, then write that path in the code.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 List of Programs:-
 
 (1) Anaconda : Snake game in C++. 
